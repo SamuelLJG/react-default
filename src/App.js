@@ -12,8 +12,8 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/react-default/" element={<Home/>} />
-        <Route path="/react-default/about" element={<About/>} />
+        <Route exact path="react-default/" element={<Home/>} />
+        <Route path="react-default/about" element={<About/>} />
       </Routes>
     </Router>
   );

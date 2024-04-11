@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Header(){
     return<>
-    <Link to='react-default/'>Home</Link>
-    <Link to='react-default/about'>About</Link>
+    <Link to='/'>Home</Link>
+    <Link to='/about'>About</Link>
     </>
 }
